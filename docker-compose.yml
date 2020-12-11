@@ -1,0 +1,11 @@
+version: "3"
+services:
+  docker-frontend-analisis:
+    build:
+       context: .
+       dockerfile: .docker/Dockerfile
+    network_mode: host
+    volumes:
+      - ./reports:/home/node/reports
+    working_dir: /home/node
+    command: tail -f /dev/null

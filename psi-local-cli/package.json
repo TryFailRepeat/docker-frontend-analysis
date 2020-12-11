@@ -1,0 +1,16 @@
+{
+  "name": "psi-local-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "psi-local": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "ngrok": "^3.0.1",
+    "ora": "^2.1.0"
+  }
+}
